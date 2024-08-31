@@ -883,6 +883,12 @@ func GetAvailableNotifiers() []*NotifierPlugin {
 					Element:      ElementTypeCheckbox,
 					PropertyName: "disable_notification",
 				},
+				{
+					Label:        "Include Screenshot URL",
+					Description:  "Include the URL of screenshot with alert to the message and disable image send in Telegram.",
+					Element:      ElementTypeCheckbox,
+					PropertyName: "include_screenshot_url",
+				}
 			},
 		},
 		{
