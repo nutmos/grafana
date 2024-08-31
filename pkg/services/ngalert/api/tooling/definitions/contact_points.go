@@ -232,6 +232,7 @@ type TelegramIntegration struct {
 	DisableWebPagePreview *bool   `json:"disable_web_page_preview,omitempty" yaml:"disable_web_page_preview,omitempty" hcl:"disable_web_page_preview"`
 	ProtectContent        *bool   `json:"protect_content,omitempty" yaml:"protect_content,omitempty" hcl:"protect_content"`
 	DisableNotifications  *bool   `json:"disable_notifications,omitempty" yaml:"disable_notifications,omitempty" hcl:"disable_notifications"`
+	IncludeScreenshotURL  *bool   `json:"include_screenshot_url,omitempty" yaml:"include_screenshot_url,omitempty" hcl:"include_screenshot_url"`
 }
 
 type TeamsIntegration struct {
