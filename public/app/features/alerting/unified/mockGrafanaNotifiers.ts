@@ -1559,6 +1559,23 @@ export const grafanaAlertNotifiersMock: NotifierDTO[] = [
       {
         element: 'checkbox',
         inputType: '',
+        label: 'Enable Screenshot URL',
+        description: 'Enable send screenshot URL in this message',
+        placeholder: '',
+        propertyName: 'enable_screenshot_url',
+        selectOptions: null,
+        showWhen: {
+          field: '',
+          is: '',
+        },
+        required: false,
+        validationRule: '',
+        secure: false,
+        dependsOn: '',
+      },
+      {
+        element: 'checkbox',
+        inputType: '',
         label: 'Protect Content',
         description: 'Protects the contents of the sent message from forwarding and saving',
         placeholder: '',
